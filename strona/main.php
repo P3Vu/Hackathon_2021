@@ -8,22 +8,25 @@
 		exit();
 	}
 	
+	echo "<p><br>Witaj ".$_SESSION['user'].'!<a href="logout.php"> Wyloguj się!</a></p>';
+	
 	require_once "connect.php";
 	$conn = new mysqli($host, $db_user, $db_password, $db_name);
-	
-	$dbconnect = mysqli_connect($host, $db_user, $db_password);
-	$dbselect = mysqli_select_db($dbconnect, $db_name);
-	
-	$socket_ID = $_GET['socket_ID'];
 
-	$records = mysqli_query($dbconnect, "SELECT * FROM socket_status");
-	$rzedy = mysqli_num_rows($records);
+	$sql = "SELECT * FROM socket_status";
+	$wynik_sprawdzenia = mysqli_query($conn, $sql);
+	$rzedy = mysqli_num_rows($wynik_sprawdzenia);
+
+
+
+
+
 	?>
 	
 	<table border = "2">
 		<tr>
 			<td>Numer gniazdka</td>
-			<td>Button</td>
+			<td>Sterowanie</td>
 		</tr>
 		
 	<?php
@@ -35,7 +38,7 @@
 			?>	
 			<tr>
 				<td><?php echo $data['socket_ID'];?></td>
-				<td><?php echo "napis";?></td>
+				<td><input type="button" value="Włącz gniazdko" onclick="location.href='socket_start_page.php?socket_ID=<?php echo $data['socket_ID']; ?>'"</td>
 			</tr>
 			
 			
@@ -57,7 +60,7 @@
 	<body>
 		
 		<?php
-			echo "<p>Witaj";
+			
 		?>
   
 	</body>

@@ -12,7 +12,7 @@
 	$timestamp = $_GET['timestamp'];
 	$current = $_GET['current'];
 	$socket_ID = $_GET['socket_ID'];
-	$flag = $_GET['flag'];
+	$session = $_GET['session'];
 	
 	echo $timestamp;
 	echo "\r\n     ";
@@ -25,7 +25,7 @@
 	echo $date;
 	
 	
-	$sql = "INSERT INTO socket_data (timestamp, current, socket_ID, flag) values ('$timestamp', '$current', '$socket_ID', '$flag')";
+	$sql = "INSERT INTO socket_data (timestamp, current, socket_ID, session) values ('$timestamp', '$current', '$socket_ID', '$session')";
 	
 	if($conn->connect_error)
 	{
