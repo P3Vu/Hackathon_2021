@@ -120,7 +120,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/hello-world
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/gniazdko
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ld.exe
@@ -164,7 +164,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=hello-world
+CMAKE_PROJECT_NAME:STATIC=gniazdko
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib.exe
@@ -487,10 +487,10 @@ esp-idf_BINARY_DIR:STATIC=C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/Cod
 esp-idf_SOURCE_DIR:STATIC=C:/Users/pawel/Desktop/esp-idf
 
 //Value Computed by CMake
-hello-world_BINARY_DIR:STATIC=C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB
+gniazdko_BINARY_DIR:STATIC=C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB
 
 //Value Computed by CMake
-hello-world_SOURCE_DIR:STATIC=C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware
+gniazdko_SOURCE_DIR:STATIC=C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware
 
 //Value Computed by CMake
 mbed TLS_BINARY_DIR:STATIC=C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/esp-idf/mbedtls/mbedtls

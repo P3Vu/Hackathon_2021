@@ -1,5 +1,5 @@
 # Hashes of file build rules.
-79145d97ffcbecff8965ae7cc1327f7b .bin_timestamp
+906be8ea7be889db2f80f723f484b474 .bin_timestamp
 f9a4b1ae422a7409ac9961f69f41f769 CMakeFiles/_project_elf_src
 f9a4b1ae422a7409ac9961f69f41f769 CMakeFiles/app
 ec3c182a3488e85b5190cf1dea310963 CMakeFiles/app-flash
@@ -12,10 +12,10 @@ cea6b22400ddc31a53e79fee2efd424a CMakeFiles/erase_flash
 fde50d1ae080e591d7d75f9c1c68d273 CMakeFiles/flash
 f9a4b1ae422a7409ac9961f69f41f769 CMakeFiles/gen_project_binary
 5f69e244200ffc38bfc097b881277659 CMakeFiles/menuconfig
-be8fe4bb8bf0b467800ae4c127da2a16 CMakeFiles/monitor
-2a2b4f3410916e5fffc5617f38e6b650 CMakeFiles/size
-a655796f8200f52d89b92fd800627de7 CMakeFiles/size-components
-725012a29fa89e5dc8c1ac47dfabbbf3 CMakeFiles/size-files
+73626c856253d5165d5e0e70abc3e689 CMakeFiles/monitor
+ccc7295f0622a5b0a66a062b57e783bb CMakeFiles/size
+64800a70c7d93fa8da37961e9140a78b CMakeFiles/size-components
+83891d7ac7191c2c04b739ad0f17f85e CMakeFiles/size-files
 a6668b1268f740486964d91760b6c126 bootloader-prefix/src/bootloader-stamp/bootloader-build
 30d5591d497907b3b04647225762a911 bootloader-prefix/src/bootloader-stamp/bootloader-configure
 09a470a5470e819e73ce445baa1fb1cf bootloader-prefix/src/bootloader-stamp/bootloader-download

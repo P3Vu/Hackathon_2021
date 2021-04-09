@@ -55,11 +55,11 @@ include CMakeFiles/gen_project_binary.dir/progress.make
 CMakeFiles/gen_project_binary: .bin_timestamp
 
 
-.bin_timestamp: hello-world.elf
+.bin_timestamp: gniazdko.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	python C:/Users/pawel/Desktop/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --elf-sha256-offset 0xb0 -o C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/hello-world.bin hello-world.elf
-	C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E echo "Generated C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/hello-world.bin"
-	C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E md5sum C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/hello-world.bin > C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/.bin_timestamp
+	python C:/Users/pawel/Desktop/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --elf-sha256-offset 0xb0 -o C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/gniazdko.bin gniazdko.elf
+	C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E echo "Generated C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/gniazdko.bin"
+	C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E md5sum C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/gniazdko.bin > C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/.bin_timestamp
 
 gen_project_binary: CMakeFiles/gen_project_binary
 gen_project_binary: .bin_timestamp

@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "bootloader/bootloader.elf"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.map"
-  "hello-world.bin"
-  "hello-world.map"
+  "gniazdko.bin"
+  "gniazdko.map"
   "project_elf_src.c"
   "CMakeFiles/confserver"
 )

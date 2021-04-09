@@ -247,6 +247,19 @@ flash/fast:
 .PHONY : flash/fast
 
 #=============================================================================
+# Target rules for targets named gniazdko.elf
+
+# Build rule for target.
+gniazdko.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 gniazdko.elf
+.PHONY : gniazdko.elf
+
+# fast build rule for target.
+gniazdko.elf/fast:
+	$(MAKE) -f CMakeFiles\gniazdko.elf.dir\build.make CMakeFiles/gniazdko.elf.dir/build
+.PHONY : gniazdko.elf/fast
+
+#=============================================================================
 # Target rules for targets named monitor
 
 # Build rule for target.
@@ -310,19 +323,6 @@ _project_elf_src: cmake_check_build_system
 _project_elf_src/fast:
 	$(MAKE) -f CMakeFiles\_project_elf_src.dir\build.make CMakeFiles/_project_elf_src.dir/build
 .PHONY : _project_elf_src/fast
-
-#=============================================================================
-# Target rules for targets named hello-world.elf
-
-# Build rule for target.
-hello-world.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 hello-world.elf
-.PHONY : hello-world.elf
-
-# fast build rule for target.
-hello-world.elf/fast:
-	$(MAKE) -f CMakeFiles\hello-world.elf.dir\build.make CMakeFiles/hello-world.elf.dir/build
-.PHONY : hello-world.elf/fast
 
 #=============================================================================
 # Target rules for targets named size
@@ -1292,7 +1292,7 @@ project_elf_src.obj: project_elf_src.c.obj
 
 # target to build an object file
 project_elf_src.c.obj:
-	$(MAKE) -f CMakeFiles\hello-world.elf.dir\build.make CMakeFiles/hello-world.elf.dir/project_elf_src.c.obj
+	$(MAKE) -f CMakeFiles\gniazdko.elf.dir\build.make CMakeFiles/gniazdko.elf.dir/project_elf_src.c.obj
 .PHONY : project_elf_src.c.obj
 
 project_elf_src.i: project_elf_src.c.i
@@ -1301,7 +1301,7 @@ project_elf_src.i: project_elf_src.c.i
 
 # target to preprocess a source file
 project_elf_src.c.i:
-	$(MAKE) -f CMakeFiles\hello-world.elf.dir\build.make CMakeFiles/hello-world.elf.dir/project_elf_src.c.i
+	$(MAKE) -f CMakeFiles\gniazdko.elf.dir\build.make CMakeFiles/gniazdko.elf.dir/project_elf_src.c.i
 .PHONY : project_elf_src.c.i
 
 project_elf_src.s: project_elf_src.c.s
@@ -1310,7 +1310,7 @@ project_elf_src.s: project_elf_src.c.s
 
 # target to generate assembly for a file
 project_elf_src.c.s:
-	$(MAKE) -f CMakeFiles\hello-world.elf.dir\build.make CMakeFiles/hello-world.elf.dir/project_elf_src.c.s
+	$(MAKE) -f CMakeFiles\gniazdko.elf.dir\build.make CMakeFiles/gniazdko.elf.dir/project_elf_src.c.s
 .PHONY : project_elf_src.c.s
 
 # Help Target
@@ -1326,12 +1326,12 @@ help:
 	@echo ... bootloader
 	@echo ... gen_project_binary
 	@echo ... flash
+	@echo ... gniazdko.elf
 	@echo ... monitor
 	@echo ... app-flash
 	@echo ... encrypted-flash
 	@echo ... encrypted-app-flash
 	@echo ... _project_elf_src
-	@echo ... hello-world.elf
 	@echo ... size
 	@echo ... size-files
 	@echo ... size-components

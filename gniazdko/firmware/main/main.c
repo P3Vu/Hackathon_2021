@@ -11,30 +11,33 @@
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
+#include "driver/adc.h"
 
+#define ADC_AVR_SAMPLES 64
 
 void app_main()
 {
-    printf("Hello world!\n");
+    printf("Starting!\n");
 
-    /* Print chip information */
-    esp_chip_info_t chip_info;
-    esp_chip_info(&chip_info);
-    printf("This is ESP32 chip with %d CPU cores, WiFi%s%s, ",
-            chip_info.cores,
-            (chip_info.features & CHIP_FEATURE_BT) ? "/BT" : "",
-            (chip_info.features & CHIP_FEATURE_BLE) ? "/BLE" : "");
+    adc1_config_width(ADC_WIDTH_BIT_12);
+    adc1_config_channel_atten(ADC1_CHANNEL_0,ADC_ATTEN_DB_11);
 
-    printf("silicon revision %d, ", chip_info.revision);
+    while(1){
 
-    printf("%dMB %s flash\n", spi_flash_get_chip_size() / (1024 * 1024),
-            (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
+        int avr = 0;
+        int sum = 0;
+        float vol = 0;
+        uint8_t cntr = 0;
 
-    for (int i = 10; i >= 0; i--) {
-        printf("Restarting in %d seconds...\n", i);
+        for(cntr = 0; cntr < ADC_AVR_SAMPLES; cntr++) {
+            sum += adc1_get_raw(ADC1_CHANNEL_0);
+        }
+
+        avr = sum / ADC_AVR_SAMPLES;
+
+        vol = 3.3 * ((float)avr/4095);
+
+        printf("vol = %f\n", vol);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
-    printf("Restarting now.\n");
-    fflush(stdout);
-    esp_restart();
 }
