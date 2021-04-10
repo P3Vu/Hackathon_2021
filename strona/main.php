@@ -43,14 +43,13 @@
 				?>
 				<td><input type="button" value="<?php echo $buttonName; ?>" onclick="location.href='socket_start_page.php?socket_ID=<?php echo $data['socket_ID'];?>&status=<?php echo $data['status']; ?>'"</td>
 			</tr>
-			
 	<?php
 		}
 	
 	?>
 </table>
 
-
+<br>Gniazdko nr 1
 <table border = "2">
 		<tr>
 			<td>Sesja pomiarowa</td>
@@ -90,11 +89,46 @@
 		
 	}
 	
-		
-	$conn->close();
 
 ?>
 </table>
+<br>
+<?php
+	$sql = "SELECT * FROM kitchen_fire";
+	$wynik_sprawdzenia = mysqli_query($conn, $sql);
+	
+	while($row = mysqli_fetch_array($wynik_sprawdzenia)){
+		$sensor = $row['sensor_ID'];
+		
+		if($sensor != $sensor_old)
+		{
+			echo "Sensor ";
+			echo $sensor ;
+			echo " wykrył ogień!";
+			
+		}
+		$sensor_old = $sensor;
+	}
+	
+	$sql = "SELECT * FROM kitchen_smoke";
+	$wynik_sprawdzenia = mysqli_query($conn, $sql);
+	
+	while($row = mysqli_fetch_array($wynik_sprawdzenia)){
+		$sensor = $row['sensor_ID'];
+		
+		if($sensor != $sensor_old)
+		{
+			echo "Sensor ";
+			echo $sensor ;
+			echo " wykrył dym!";
+			
+		}
+		$sensor_old = $sensor;
+	}
+	
+	$conn->close();
+	
+?>
 
 
 <! DOCTYPE HTML>
