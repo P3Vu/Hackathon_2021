@@ -5,13 +5,9 @@ from mfrc522 import SimpleMFRC522
 
 def read_rfid():
     reader = SimpleMFRC522()
-    
-    try:
-        id, text = reader.read()
-        print(id)
-        print(text)
-    finally:
-        GPIO.cleanup()
+    id, text = reader.read()
+    print(id)
+    print(text)
 
 if __name__ == '__main__':
     read_rfid()
