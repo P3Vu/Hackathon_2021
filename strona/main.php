@@ -17,15 +17,12 @@
 	$wynik_sprawdzenia = mysqli_query($conn, $sql);
 	$rzedy = mysqli_num_rows($wynik_sprawdzenia);
 
-
-
-
-
 	?>
 	
 	<table border = "2">
 		<tr>
 			<td>Numer gniazdka</td>
+			<td>Status</td>
 			<td>Sterowanie</td>
 		</tr>
 		
@@ -34,20 +31,71 @@
 		$records = mysqli_query($conn, $sql);
 		while($data = mysqli_fetch_array($records))
 		{
-		
-			?>	
+			$status = $data['status'];
+	?>	
 			<tr>
 				<td><?php echo $data['socket_ID'];?></td>
-				<td><input type="button" value="Włącz gniazdko" onclick="location.href='socket_start_page.php?socket_ID=<?php echo $data['socket_ID']; ?>'"</td>
+				<td><?php echo $data['status'];?></td>
+				<?php if($status == 0)
+					$buttonName = "Włącz gniazdko";
+					else
+					$buttonName = "Wyłącz gniazdko";
+				?>
+				<td><input type="button" value="<?php echo $buttonName; ?>" onclick="location.href='socket_start_page.php?socket_ID=<?php echo $data['socket_ID'];?>&status=<?php echo $data['status']; ?>'"</td>
 			</tr>
 			
-			
-			<?php
+	<?php
 		}
-	$conn->close();
-
+	
 	?>
 </table>
+
+
+<table border = "2">
+		<tr>
+			<td>Sesja pomiarowa</td>
+			<td>Zużycie mocy [W]</td>
+		</tr>
+		
+
+<?php
+	$vsk = 0.7071 * 230;//wartość napięcia skutecznego
+	$sql = "SELECT * FROM socket_data";
+	$wynik_sprawdzenia = mysqli_query($conn, $sql);
+	$rzedy = mysqli_num_rows($wynik_sprawdzenia);
+	$suma = 0;
+	$sesja_last = 1;
+	//wyznaczanie rekordow z podanym numerem sesji
+	while($row = mysqli_fetch_array($wynik_sprawdzenia)){
+		$sesja = $row['session'];
+		$current = $row['current'];
+		
+		if($sesja != $sesja_last)
+		{
+		
+			//echo $suma;
+			$moc = $suma * $vsk;
+			?>
+			<tr>
+				<td><?php echo $sesja; ?></td>
+				<td><?php echo $moc; ?></td>
+			</tr>
+			
+			<?php
+			$suma = 0;
+	
+		}
+		$suma = $suma + $current;
+		$sesja_last = $sesja;
+		
+	}
+	
+		
+	$conn->close();
+
+?>
+</table>
+
 
 <! DOCTYPE HTML>
 <html lang="pl">

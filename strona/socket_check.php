@@ -12,7 +12,7 @@
 	
 	$socket_ID = $_GET['socket_ID'];
 
-	$records = mysqli_query($dbconnect, "SELECT * FROM socket_status WHERE socket_ID = '".$socket_ID."'");
+	$records = mysqli_query($dbconnect, "SELECT * FROM socket_status WHERE socket_ID = '".$socket_ID."' AND status=0");
 	$rzedy = mysqli_num_rows($records);
 	
 	if($rzedy>0)
