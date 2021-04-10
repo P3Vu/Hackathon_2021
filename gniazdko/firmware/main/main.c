@@ -20,6 +20,7 @@
 #include "driver/adc.h"
 #include "driver/gpio.h"
 #include "tcpip_adapter.h"
+#include "math.h"
 
 #include "my_SNTP.h"
 #include "my_http.h"
@@ -165,7 +166,7 @@ void communication_task(void *pvParameters)
 
             avr = sum / ADC_AVR_SAMPLES;
             vol = 3.3 * ((float)avr/4095);
-            curr = (vol - 2.13) / 0.18;
+            curr = fabs((vol - 2.13) / 0.18);
             printf("curr = %f\n", curr);
 
             if(curr >= CURRENT_THRESHHOLD) {

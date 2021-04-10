@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pawel/Desktop/Hackathon/lazienka/main
+# Install script for directory: C:/Users/pawel/Desktop/Hackathon/lazienka/firmware/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

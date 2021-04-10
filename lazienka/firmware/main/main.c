@@ -38,7 +38,7 @@
 
 #define BATHROOM_SENSOR_ID                  1
 
-#define WATER_SENSOR_LED GPIO_NUM_0
+#define WATER_SENSOR_LED                    GPIO_NUM_0
 
 #define SENSOR_LED_UNSET_DELAY              10
 

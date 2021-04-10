@@ -95,7 +95,7 @@ esp_err_t _http_event_handler(esp_http_client_event_t *evt)
 /** POST - Send data about current with timestamp */
 esp_err_t my_http_post_current_data(uint32_t timestamp, float current, int socket_ID, uint16_t session) {
 
-    char url[200] = "http://192.168.0.107/strona/socket_data.php?";
+    char url[200] = "http://192.168.0.102/strona/socket_data.php?";
     char urlargs[100] = {};
 
     sprintf(urlargs, "timestamp=%d&current=%f&socket_ID=%d&session=%d", timestamp, current, socket_ID, session);
@@ -134,7 +134,7 @@ esp_err_t my_http_post_current_data(uint32_t timestamp, float current, int socke
 /** GET - checking socket status on database */
 esp_err_t my_http_get_socket_status(char *buf, int socket_ID) {
 
-    char url[200] = "http://192.168.0.107/strona/socket_check.php?";
+    char url[200] = "http://192.168.0.102/strona/socket_check.php?";
     char urlargs[100] = {};
 
     sprintf(urlargs, "socket_ID=%d", socket_ID);
@@ -179,7 +179,7 @@ esp_err_t my_http_get_socket_status(char *buf, int socket_ID) {
 /** POST - Send data about current with timestamp */
 esp_err_t my_http_post_start_button(int socket_ID) {
 
-    char url[200] = "http://192.168.0.107/strona/socket_start_button.php?";
+    char url[200] = "http://192.168.0.102/strona/socket_start_button.php?";
     char urlargs[100] = {};
 
     sprintf(urlargs, "socket_ID=%d", socket_ID);

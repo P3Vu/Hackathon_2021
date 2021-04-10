@@ -95,7 +95,7 @@ esp_err_t _http_event_handler(esp_http_client_event_t *evt)
 /** POST - Send info about trigger of smoke sensor */
 esp_err_t my_http_post_smoke_sensor_trigger(uint16_t sensor_ID) {
 
-    char url[200] = "http://192.168.0.107/strona/kitchen_smoke.php?";
+    char url[200] = "http://192.168.0.102/strona/kitchen_smoke.php?";
     char urlargs[100] = {};
 
     sprintf(urlargs, "sensor_ID=%d", sensor_ID);
@@ -132,7 +132,7 @@ esp_err_t my_http_post_smoke_sensor_trigger(uint16_t sensor_ID) {
 /** POST - Send info about trigger of fire sensor */
 esp_err_t my_http_post_fire_sensor_trigger(uint16_t sensor_ID) {
 
-    char url[200] = "http://192.168.0.107/strona/kitchen_fire.php?";
+    char url[200] = "http://192.168.0.102/strona/kitchen_fire.php?";
     char urlargs[100] = {};
 
     sprintf(urlargs, "sensor_ID=%d", sensor_ID);

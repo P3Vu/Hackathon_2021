@@ -7,11 +7,6 @@
 			<Cursor1 position="754" topLine="15" />
 		</Cursor>
 	</File>
-	<File name="..\main\main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2268" topLine="56" />
-		</Cursor>
-	</File>
 	<File name="..\libs\myJSON\my_JSON.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="422" topLine="0" />
@@ -19,7 +14,12 @@
 	</File>
 	<File name="..\libs\myHTTP\my_http.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5601" topLine="0" />
+			<Cursor1 position="5589" topLine="121" />
+		</Cursor>
+	</File>
+	<File name="..\main\main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2519" topLine="57" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

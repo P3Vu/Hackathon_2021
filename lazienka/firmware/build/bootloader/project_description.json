@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Users/pawel/Desktop/esp-idf/components/bootloader/subproject",
-    "build_dir":          "C:/Users/pawel/Desktop/Hackathon/lazienka/build/bootloader",
-    "config_file":        "C:/Users/pawel/Desktop/Hackathon/lazienka/sdkconfig",
+    "build_dir":          "C:/Users/pawel/Desktop/Hackathon/lazienka/firmware/build/bootloader",
+    "config_file":        "C:/Users/pawel/Desktop/Hackathon/lazienka/firmware/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

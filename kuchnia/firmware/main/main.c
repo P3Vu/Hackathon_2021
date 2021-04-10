@@ -61,8 +61,8 @@ static uint32_t smoke_sensor_set_timestamp = 0;
 #define WIFI_CONNECTED_BIT BIT0
 #define WIFI_FAIL_BIT      BIT1
 
-static const char *TAG_WIFI     = "WiFi";
-static const char *TAG_BACKGROUND = "Background";
+static const char *TAG_WIFI             = "WiFi";
+static const char *TAG_BACKGROUND       = "Background";
 
 /* FreeRTOS event group to signal when we are connected*/
 static EventGroupHandle_t s_wifi_event_group;
@@ -85,16 +85,16 @@ static void sensor_task(void* arg)
                 printf("GPIO[%d] intr, val: %d\n", io_num, gpio_get_level(io_num));
 
                 if(io_num == FIRE_SENSOR) {
-                    my_http_post_smoke_sensor_trigger(KITCHEN_SENSOR_ID);
+                    my_http_post_fire_sensor_trigger(KITCHEN_SENSOR_ID);
                     gpio_set_level(FIRE_SENSOR_LED, 1);
 
                     fire_sensor_set = true;
                     time(&now);
                     fire_sensor_set_timestamp = now;
-
                 }
+
                 else if (io_num == SMOKE_SENSOR) {
-                    my_http_post_fire_sensor_trigger(KITCHEN_SENSOR_ID);
+                    my_http_post_smoke_sensor_trigger(KITCHEN_SENSOR_ID);
                     gpio_set_level(SMOKE_SENSOR_LED, 1);
 
                     smoke_sensor_set = true;
@@ -104,7 +104,7 @@ static void sensor_task(void* arg)
             }
         }
 
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        vTaskDelay(100 / portTICK_PERIOD_MS);
     }
 }
 
@@ -232,6 +232,14 @@ int wifi_init()
     return 0;
 }
 
+static void toggle_gpio(uint8_t gpio_num){
+
+    if(gpio_get_level(gpio_num) == 0)   gpio_set_level(gpio_num, 1);
+    else                                gpio_set_level(gpio_num, 0);
+
+    return;
+}
+
 void background_task(void *pvParameters)
 {
     ESP_LOGI(TAG_BACKGROUND, "Starting Background");
@@ -242,9 +250,13 @@ void background_task(void *pvParameters)
             time(&now);
             //printf("now = %ld | fire_sensor_set_timestamp = %d\n", now, fire_sensor_set_timestamp);
             if(now - SENSOR_LED_UNSET_DELAY > fire_sensor_set_timestamp){
+                printf("Unset Fire\n");
                 fire_sensor_set = false;
                 gpio_set_level(FIRE_SENSOR_LED, 0);
                 fire_sensor_set_timestamp = 0;
+            }
+            else{
+                toggle_gpio(FIRE_SENSOR_LED);
             }
         }
 
@@ -252,13 +264,17 @@ void background_task(void *pvParameters)
             time(&now);
             //printf("now = %ld | smoke_sensor_set_timestamp = %d\n", now, smoke_sensor_set_timestamp);
             if(now - SENSOR_LED_UNSET_DELAY > smoke_sensor_set_timestamp){
+                printf("Unset Smoke\n");
                 smoke_sensor_set = false;
                 gpio_set_level(SMOKE_SENSOR_LED, 0);
                 smoke_sensor_set_timestamp = 0;
             }
+            else{
+                toggle_gpio(SMOKE_SENSOR_LED);
+            }
         }
 
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        vTaskDelay(250 / portTICK_PERIOD_MS);
     }
 
     vTaskDelete(NULL);
@@ -268,8 +284,8 @@ void app_main()
 {
     configGPIO();
 
-    gpio_set_direction(FIRE_SENSOR_LED, GPIO_MODE_OUTPUT);
-    gpio_set_direction(SMOKE_SENSOR_LED, GPIO_MODE_OUTPUT);
+    gpio_set_direction(FIRE_SENSOR_LED, GPIO_MODE_INPUT_OUTPUT);
+    gpio_set_direction(SMOKE_SENSOR_LED, GPIO_MODE_INPUT_OUTPUT);
     gpio_set_direction(POWER_SENSOR, GPIO_MODE_OUTPUT);
 
     gpio_set_level(FIRE_SENSOR_LED, 0);
