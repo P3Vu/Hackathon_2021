@@ -93,12 +93,12 @@ esp_err_t _http_event_handler(esp_http_client_event_t *evt)
 
 
 /** POST - Send data about current with timestamp */
-esp_err_t my_http_post_current_data(uint32_t timestamp, float current, int socket_ID, uint8_t flag) {
+esp_err_t my_http_post_current_data(uint32_t timestamp, float current, int socket_ID, uint16_t session) {
 
     char url[200] = "http://192.168.0.107/strona/socket_data.php?";
     char urlargs[100] = {};
 
-    sprintf(urlargs, "timestamp=%d&current=%f&socket_ID=%d&flag=%d", timestamp, current, socket_ID, flag);
+    sprintf(urlargs, "timestamp=%d&current=%f&socket_ID=%d&session=%d", timestamp, current, socket_ID, session);
     strcat(url, urlargs);
 
     char local_response_buffer[MAX_HTTP_OUTPUT_BUFFER] = {0};
