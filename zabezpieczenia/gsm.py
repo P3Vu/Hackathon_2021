@@ -9,7 +9,7 @@ def send_sms(message,recipient):
     time.sleep(0.5)
     phone.write('AT+CMGF=1'+'\r')
     time.sleep(0.5)
-    phone.write('AT+CMGS="+48516187461"'+'\r')
+    phone.write('AT+CMGS="'+recipient+'"'+'\r')
     time.sleep(0.5)
     phone.write(message+'\r')
     time.sleep(0.5)

@@ -4,6 +4,8 @@ from gpiozero import Button
 import rfid_read
 import subprocess
 import sys
+import get_data
+import gsm
 
 def touch_button():
     GPIO.setmode(GPIO.BCM)
@@ -12,7 +14,9 @@ def touch_button():
         value = GPIO.input(7)
         if value == 1:
             print("a")
-            p = subprocess.Popen([sys.executable, 'gsm.py'], 
+            number = get_data.init_connection('number')
+            gsm.send_sms("Zalaczono system", number)
+            p = subprocess.Popen([sys.executable, 'get_data.py'], 
                                     stdout=subprocess.PIPE, 
                                     stderr=subprocess.STDOUT)
             rfid_read.read_rfid()
