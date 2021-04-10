@@ -15,7 +15,7 @@
 	
 	
 	
-	$sql = "INSERT INTO kitchen_fire (is_fire, timestamp, sensor_ID) values ('1', '$timestamp', '$sensor_ID')";
+	$sql = "INSERT INTO kitchen_fire (is_fire, timestamp, sensor_ID) values ('1', '$date', '$sensor_ID')";
 	
 	if($conn->connect_error)
 	{

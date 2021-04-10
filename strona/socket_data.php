@@ -22,7 +22,7 @@
 	echo "\r\n     ";
 	
 	$date = date('Y-m-d H:i:s', $timestamp);
-	echo $date;
+	
 	
 	
 	$sql = "INSERT INTO socket_data (timestamp, current, socket_ID, session) values ('$timestamp', '$current', '$socket_ID', '$session')";

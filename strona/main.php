@@ -8,6 +8,8 @@
 		exit();
 	}
 	
+	header("Refresh: 15");
+	
 	echo "<p><br>Witaj ".$_SESSION['user'].'!<a href="logout.php"> Wyloguj się!</a></p>';
 	
 	require_once "connect.php";
@@ -21,9 +23,9 @@
 	
 	<table border = "2">
 		<tr>
-			<td>Numer gniazdka</td>
-			<td>Status</td>
-			<td>Sterowanie</td>
+			<td bgcolor="#93db90">Numer gniazdka</td>
+			<td bgcolor="#93db90">Status</td>
+			<td bgcolor="#93db90">Sterowanie</td>
 		</tr>
 		
 	<?php
@@ -52,8 +54,8 @@
 <br>Gniazdko nr 1
 <table border = "2">
 		<tr>
-			<td>Sesja pomiarowa</td>
-			<td>Zużycie mocy [W]</td>
+			<td bgcolor="#93db90">Sesja pomiarowa</td>
+			<td bgcolor="#93db90">Zużycie mocy [kWH]</td>
 		</tr>
 		
 
@@ -64,26 +66,41 @@
 	$rzedy = mysqli_num_rows($wynik_sprawdzenia);
 	$suma = 0;
 	$sesja_last = 1;
+	$liczik = 1;
+	
+	
 	//wyznaczanie rekordow z podanym numerem sesji
 	while($row = mysqli_fetch_array($wynik_sprawdzenia)){
 		$sesja = $row['session'];
 		$current = $row['current'];
 		
+		
 		if($sesja != $sesja_last)
 		{
+			$timestamp_finish = $row['timestamp'];
 		
-			//echo $suma;
-			$moc = $suma * $vsk;
+			$timestamp_dif = $timestamp_finish - $timestamp_start;
+			$kWh = $vsk * $suma / $licznik / 1000 / 3600 * $timestamp_dif;//kWh
+			
 			?>
 			<tr>
 				<td><?php echo $sesja; ?></td>
-				<td><?php echo $moc; ?></td>
+				<td><?php echo $kWh; ?></td>
 			</tr>
 			
 			<?php
 			$suma = 0;
+			$licznik = 0;
+			
 	
 		}
+		if($licznik == 1)
+		{
+			$timestamp_start = $row['timestamp'];
+			
+		}	
+			
+		$licznik++;
 		$suma = $suma + $current;
 		$sesja_last = $sesja;
 		
