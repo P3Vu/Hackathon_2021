@@ -994,3 +994,16 @@
 626	1873	6397281417533853	esp-idf/esp32/ld/esp32.project.ld	91db0c714a6d7b46
 1874	5133	6397281450161190	kuchnia.elf	ad73d4f09fb4d5be
 5133	5448	6397281453383091	.bin_timestamp	dcc7caacf157189e
+7	5936	6397302875913274	build.ninja	8abc094df0669592
+45	161	0	esp-idf/partition_table/CMakeFiles/partition_table	ede5d0071ea57e69
+162	211	6397210802898813	bootloader-prefix/src/bootloader-stamp/bootloader-build	244df2e83705229
+162	211	6397210802898813	bootloader/bootloader.elf	244df2e83705229
+162	211	6397210802898813	bootloader/bootloader.bin	244df2e83705229
+162	211	6397210802898813	bootloader/bootloader.map	244df2e83705229
+47	283	6397302879406896	esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj	fcfd4f18771e6058
+284	332	6397302879938781	esp-idf/app_update/libapp_update.a	a25df7d5c74acf82
+49	634	6397302882828054	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	2b41261a55f69c31
+634	678	6397302883405826	esp-idf/main/libmain.a	dd70e53c1c0cfcbc
+678	1944	6397302895920372	esp-idf/esp32/ld/esp32.project.ld	91db0c714a6d7b46
+1944	6079	6397302937226872	kuchnia.elf	ad73d4f09fb4d5be
+6079	6371	6397302940293586	.bin_timestamp	dcc7caacf157189e

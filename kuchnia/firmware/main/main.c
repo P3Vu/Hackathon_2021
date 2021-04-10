@@ -252,7 +252,7 @@ void background_task(void *pvParameters)
             time(&now);
             //printf("now = %ld | smoke_sensor_set_timestamp = %d\n", now, smoke_sensor_set_timestamp);
             if(now - SENSOR_LED_UNSET_DELAY > smoke_sensor_set_timestamp){
-                fire_sensor_set = false;
+                smoke_sensor_set = false;
                 gpio_set_level(SMOKE_SENSOR_LED, 0);
                 smoke_sensor_set_timestamp = 0;
             }
