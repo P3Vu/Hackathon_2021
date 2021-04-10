@@ -1,3 +1,11 @@
+<?php
+
+	session_start();
+
+?>
+
+
+
 <! DOCTYPE HTML>
 <html lang="pl">
 	<head>
@@ -13,6 +21,10 @@
 			Haslo: <br /><input type="password" name="password"/><br />
 			<input type = "submit" value = "Zaloguj sie" />
 		</form>
-
+<?php
+	
+	echo $_SESSION['blad'];
+	
+?>
 	</body>
 </html>

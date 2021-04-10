@@ -80,6 +80,7 @@
 			$timestamp_finish = $row['timestamp'];
 		
 			$timestamp_dif = $timestamp_finish - $timestamp_start;
+			echo $timestamp_dif;
 			$kWh = $vsk * $suma / $licznik / 1000 / 3600 * $timestamp_dif;//kWh
 			
 			?>
@@ -178,8 +179,9 @@
 	}
 	
 	$conn->close();
+	?>
 	
-?>
+	
 
 
 <! DOCTYPE HTML>
