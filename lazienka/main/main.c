@@ -40,7 +40,7 @@
 
 #define WATER_SENSOR_LED GPIO_NUM_0
 
-#define SENSOR_LED_UNSET_DELAY              30
+#define SENSOR_LED_UNSET_DELAY              10
 
 static int s_retry_num = 0;
 time_t now;
@@ -181,6 +181,14 @@ int wifi_init()
     return 0;
 }
 
+static void toggle_gpio(uint8_t gpio_num){
+
+    if(gpio_get_level(gpio_num) == 0)   gpio_set_level(gpio_num, 1);
+    else                                gpio_set_level(gpio_num, 0);
+
+    return;
+}
+
 void background_task(void *pvParameters)
 {
     ESP_LOGI(TAG_BACKGROUND, "Starting Background");
@@ -195,9 +203,12 @@ void background_task(void *pvParameters)
                 gpio_set_level(WATER_SENSOR_LED, 0);
                 water_sensor_set_timestamp = 0;
             }
+            else{
+                toggle_gpio(WATER_SENSOR_LED);
+            }
         }
 
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        vTaskDelay(250 / portTICK_PERIOD_MS);
     }
 
     vTaskDelete(NULL);
@@ -208,7 +219,7 @@ void app_main()
     adc1_config_width(ADC_WIDTH_BIT_12);
     adc1_config_channel_atten(ADC1_CHANNEL_0,ADC_ATTEN_DB_11);
 
-    gpio_set_direction(WATER_SENSOR_LED, GPIO_MODE_OUTPUT);
+    gpio_set_direction(WATER_SENSOR_LED, GPIO_MODE_INPUT_OUTPUT);
     gpio_set_level(WATER_SENSOR_LED, 0);
 
     esp_err_t err = nvs_flash_init();

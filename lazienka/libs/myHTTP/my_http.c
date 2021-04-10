@@ -95,7 +95,7 @@ esp_err_t _http_event_handler(esp_http_client_event_t *evt)
 /** POST - Send info about trigger of water sensor */
 esp_err_t my_http_post_water_sensor_trigger(uint16_t sensor_ID) {
 
-    char url[200] = "http://192.168.0.107/strona/bathroom_water.php?";
+    char url[200] = "http://192.168.0.102/strona/bathroom_water.php?";
     char urlargs[100] = {};
 
     sprintf(urlargs, "sensor_ID=%d", sensor_ID);
