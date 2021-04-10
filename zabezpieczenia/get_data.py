@@ -17,11 +17,9 @@ def check_table(data,cursor):
             return 1
     elif data == 'users':
         result = cursor.fetchone()
-        print(result[3])
         return result[3]
     else:
         result = cursor.fetchone()
-        print(result[2])
         return result[2]
 
 def init_connection(task):
@@ -51,13 +49,13 @@ def init_connection(task):
                         if socket == 1:
                             message = message + 'wlaczone gniazdko.'
                         gsm.send_sms(message, number)
+                        #print(message)
                         sms_status = 1
                     bashCommand = "pgrep -af rfid_read.py"
                     process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
                     output, error = process.communicate()
                     output = output.decode("utf-8")
                     if not output:
-                        print('cnt')
                         exit()
                     time.sleep(2)
 
