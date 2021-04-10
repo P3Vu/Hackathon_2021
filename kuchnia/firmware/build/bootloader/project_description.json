@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Users/pawel/Desktop/esp-idf/components/bootloader/subproject",
+    "build_dir":          "C:/Users/pawel/Desktop/Hackathon/kuchnia/firmware/build/bootloader",
+    "config_file":        "C:/Users/pawel/Desktop/Hackathon/kuchnia/firmware/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.0.1-441-g6093407d7-dirty",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Users/pawel/Desktop/esp-idf/components/efuse/Kconfig;C:/Users/pawel/Desktop/esp-idf/components/esp32/Kconfig;C:/Users/pawel/Desktop/esp-idf/components/esp_common/Kconfig;C:/Users/pawel/Desktop/esp-idf/components/log/Kconfig;C:/Users/pawel/Desktop/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/pawel/Desktop/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/pawel/Desktop/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/pawel/Desktop/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Users/pawel/Desktop/esp-idf/components/bootloader", "C:/Users/pawel/Desktop/esp-idf/components/bootloader_support", "C:/Users/pawel/Desktop/esp-idf/components/efuse", "C:/Users/pawel/Desktop/esp-idf/components/esp32", "C:/Users/pawel/Desktop/esp-idf/components/esp_common", "C:/Users/pawel/Desktop/esp-idf/components/esp_rom", "C:/Users/pawel/Desktop/esp-idf/components/esptool_py", "C:/Users/pawel/Desktop/esp-idf/components/log", "C:/Users/pawel/Desktop/esp-idf/components/bootloader/subproject/main", "C:/Users/pawel/Desktop/esp-idf/components/bootloader/subproject/components/micro-ecc", "C:/Users/pawel/Desktop/esp-idf/components/partition_table", "C:/Users/pawel/Desktop/esp-idf/components/soc", "C:/Users/pawel/Desktop/esp-idf/components/spi_flash", "C:/Users/pawel/Desktop/esp-idf/components/xtensa", "" ]
+}
