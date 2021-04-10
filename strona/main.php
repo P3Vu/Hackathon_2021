@@ -104,12 +104,17 @@
 		{
 			echo "Sensor ";
 			echo $sensor ;
-			echo " wykrył ogień!";
+			echo " wykrył ogień!";?>
+			<input type="button" value="Anuluj alarm" onclick="location.href='fire_del.php'"
+			<br>
+			<?php
 			
 		}
 		$sensor_old = $sensor;
 	}
-	
+	echo "<br>";
+	$sensor = 0;
+	$sensor_old = 0;
 	$sql = "SELECT * FROM kitchen_smoke";
 	$wynik_sprawdzenia = mysqli_query($conn, $sql);
 	
@@ -120,8 +125,10 @@
 		{
 			echo "Sensor ";
 			echo $sensor ;
-			echo " wykrył dym!";
-			
+			echo " wykrył dym!";?>
+			<input type="button" value="Anuluj alarm" onclick="location.href='fire_del.php'"
+			<br>
+			<?php
 		}
 		$sensor_old = $sensor;
 	}
