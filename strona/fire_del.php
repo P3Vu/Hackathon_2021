@@ -25,7 +25,8 @@
 		echo "Error: " .$sql . "<br>" . $conn->error;
 	}
 	
-	
+	header('Location:  main.php');
+	exit();
 
 	
 ?>

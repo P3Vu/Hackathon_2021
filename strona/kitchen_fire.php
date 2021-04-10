@@ -12,7 +12,7 @@
 
 	
 	$date = date('Y-m-d H:i:s', $timestamp);
-	echo $date;
+	
 	
 	
 	$sql = "INSERT INTO kitchen_fire (is_fire, timestamp, sensor_ID) values ('1', '$timestamp', '$sensor_ID')";

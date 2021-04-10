@@ -7,15 +7,11 @@
 	
 	$conn = new mysqli($host, $db_user, $db_password, $db_name);
 	
+	
 	$sensor_ID = $_GET['sensor_ID'];
-	$timestamp = time();
-
-	
-	$date = date('Y-m-d H:i:s', $timestamp);
 	
 	
-	
-	$sql = "INSERT INTO kitchen_smoke (is_smoke, timestamp, sensor_ID) values ('1', '$timestamp', '$sensor_ID')";
+	$sql = "DELETE FROM bathroom_water";
 	
 	if($conn->connect_error)
 	{
@@ -29,7 +25,8 @@
 		echo "Error: " .$sql . "<br>" . $conn->error;
 	}
 	
-	
+	header('Location:  main.php');
+	exit();
 
 	
 ?>

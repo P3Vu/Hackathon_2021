@@ -15,7 +15,7 @@
 	
 	
 	
-	$sql = "INSERT INTO kitchen_smoke (is_smoke, timestamp, sensor_ID) values ('1', '$timestamp', '$sensor_ID')";
+	$sql = "INSERT INTO bathroom_water (is_water, timestamp, sensor_ID) values ('1', '$timestamp', '$sensor_ID')";
 	
 	if($conn->connect_error)
 	{

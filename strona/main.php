@@ -102,7 +102,7 @@
 		
 		if($sensor != $sensor_old)
 		{
-			echo "Sensor ";
+			echo "Sensor płomieni nr ";
 			echo $sensor ;
 			echo " wykrył ogień!";
 			?>
@@ -130,6 +130,28 @@
 			echo " wykrył dym!";?>
 			
 			<input type="button" value="Anuluj alarm" onclick="location.href='smoke_del.php'"
+			<br><br>
+			
+			<?php
+			
+		}
+		$sensor_old = $sensor;
+	}
+	$sensor_old = 0;
+	$sensor = 1;
+	$sql = "SELECT * FROM bathroom_water";
+	$wynik_sprawdzenia = mysqli_query($conn, $sql);
+	
+	while($row = mysqli_fetch_array($wynik_sprawdzenia)){
+		$sensor = $row['sensor_ID'];
+		
+		if($sensor != $sensor_old)
+		{
+			echo "Sensor wody nr ";
+			echo $sensor ;
+			echo " wykrył powódź!";?>
+			
+			<input type="button" value="Anuluj alarm" onclick="location.href='water_del.php'"
 			<br>
 			
 			<?php
