@@ -55,7 +55,7 @@
 <table border = "2">
 		<tr>
 			<td bgcolor="#93db90">Sesja pomiarowa</td>
-			<td bgcolor="#93db90">Zużycie mocy [kWH]</td>
+			<td bgcolor="#93db90">Zużycie energii [kWH]</td>
 		</tr>
 		
 
@@ -65,8 +65,8 @@
 	$wynik_sprawdzenia = mysqli_query($conn, $sql);
 	$rzedy = mysqli_num_rows($wynik_sprawdzenia);
 	$suma = 0;
-	$sesja_last = 1;
-	$liczik = 1;
+	$sesja_last = 0;
+	$licznik = 1;
 	
 	
 	//wyznaczanie rekordow z podanym numerem sesji
@@ -80,7 +80,7 @@
 			$timestamp_finish = $row['timestamp'];
 		
 			$timestamp_dif = $timestamp_finish - $timestamp_start;
-			echo $timestamp_dif;
+			//echo $timestamp_dif;
 			$kWh = $vsk * $suma / $licznik / 1000 / 3600 * $timestamp_dif;//kWh
 			
 			?>
@@ -181,7 +181,11 @@
 	$conn->close();
 	?>
 	
+	<?php
 	
+	echo $_SESSION['blad']
+	
+?>
 
 
 <! DOCTYPE HTML>
