@@ -35,14 +35,14 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_65cc0/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_65cc0.dir\build.make CMakeFiles/cmTC_65cc0.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_ea3a3/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ea3a3.dir\build.make CMakeFiles/cmTC_ea3a3.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65cc0.dir/testCCompiler.c.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_65cc0.dir\testCCompiler.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_65cc0
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_65cc0.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_65cc0.dir/testCCompiler.c.obj  -o cmTC_65cc0 
+Building C object CMakeFiles/cmTC_ea3a3.dir/testCCompiler.c.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_ea3a3.dir\testCCompiler.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_ea3a3
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ea3a3.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_ea3a3.dir/testCCompiler.c.obj  -o cmTC_ea3a3 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -50,14 +50,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_ca517/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ca517.dir\build.make CMakeFiles/cmTC_ca517.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c2f35/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c2f35.dir\build.make CMakeFiles/cmTC_c2f35.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ca517.dir/CMakeCCompilerABI.c.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_ca517.dir\CMakeCCompilerABI.c.obj   -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCCompilerABI.c
-Linking C executable cmTC_ca517
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ca517.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_ca517.dir/CMakeCCompilerABI.c.obj  -o cmTC_ca517 
+Building C object CMakeFiles/cmTC_c2f35.dir/CMakeCCompilerABI.c.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_c2f35.dir\CMakeCCompilerABI.c.obj   -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCCompilerABI.c
+Linking C executable cmTC_c2f35
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_c2f35.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_c2f35.dir/CMakeCCompilerABI.c.obj  -o cmTC_c2f35 
 Using built-in specs.
 COLLECT_GCC=C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe
 COLLECT_LTO_WRAPPER=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe
@@ -67,10 +67,10 @@ Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
 COMPILER_PATH=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_ca517'
- c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccXKjTjV.res -o cmTC_ca517 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_ca517.dir/CMakeCCompilerABI.c.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_c2f35'
+ c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccYd4R3n.res -o cmTC_c2f35 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_c2f35.dir/CMakeCCompilerABI.c.obj
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_ca517'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_c2f35'
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
 
@@ -78,14 +78,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_ca517/fast"]
-  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ca517.dir\build.make CMakeFiles/cmTC_ca517.dir/build]
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c2f35/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c2f35.dir\build.make CMakeFiles/cmTC_c2f35.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ca517.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_ca517.dir\CMakeCCompilerABI.c.obj   -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ca517]
-  ignore line: [C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ca517.dir\link.txt --verbose=1]
-  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_ca517.dir/CMakeCCompilerABI.c.obj  -o cmTC_ca517 ]
+  ignore line: [Building C object CMakeFiles/cmTC_c2f35.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_c2f35.dir\CMakeCCompilerABI.c.obj   -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c2f35]
+  ignore line: [C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_c2f35.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_c2f35.dir/CMakeCCompilerABI.c.obj  -o cmTC_c2f35 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe]
@@ -99,19 +99,19 @@ Parsed C implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/]
   ignore line: [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/]
   ignore line: [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_ca517']
-  link line: [ c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccXKjTjV.res -o cmTC_ca517 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_ca517.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_c2f35']
+  link line: [ c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccYd4R3n.res -o cmTC_c2f35 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_c2f35.dir/CMakeCCompilerABI.c.obj]
     arg [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccXKjTjV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccYd4R3n.res] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ca517] ==> ignore
+    arg [cmTC_c2f35] ==> ignore
     arg [-Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0]
     arg [-Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_ca517.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_c2f35.dir/CMakeCCompilerABI.c.obj] ==> ignore
   collapse library dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> [C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0]
   collapse library dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -125,14 +125,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_cfc4a/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cfc4a.dir\build.make CMakeFiles/cmTC_cfc4a.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_2087b/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_2087b.dir\build.make CMakeFiles/cmTC_2087b.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cfc4a.dir/feature_tests.c.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -std=c11 -o CMakeFiles\cmTC_cfc4a.dir\feature_tests.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.c
-Linking C executable cmTC_cfc4a
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cfc4a.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_cfc4a.dir/feature_tests.c.obj  -o cmTC_cfc4a 
+Building C object CMakeFiles/cmTC_2087b.dir/feature_tests.c.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -std=c11 -o CMakeFiles\cmTC_2087b.dir\feature_tests.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.c
+Linking C executable cmTC_2087b
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_2087b.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_2087b.dir/feature_tests.c.obj  -o cmTC_2087b 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -146,14 +146,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_11ea0/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_11ea0.dir\build.make CMakeFiles/cmTC_11ea0.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_78cb3/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_78cb3.dir\build.make CMakeFiles/cmTC_78cb3.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11ea0.dir/feature_tests.c.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -std=c99 -o CMakeFiles\cmTC_11ea0.dir\feature_tests.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.c
-Linking C executable cmTC_11ea0
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_11ea0.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_11ea0.dir/feature_tests.c.obj  -o cmTC_11ea0 
+Building C object CMakeFiles/cmTC_78cb3.dir/feature_tests.c.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -std=c99 -o CMakeFiles\cmTC_78cb3.dir\feature_tests.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.c
+Linking C executable cmTC_78cb3
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_78cb3.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_78cb3.dir/feature_tests.c.obj  -o cmTC_78cb3 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -167,14 +167,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_08a14/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_08a14.dir\build.make CMakeFiles/cmTC_08a14.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b3a98/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b3a98.dir\build.make CMakeFiles/cmTC_b3a98.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_08a14.dir/feature_tests.c.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -std=c90 -o CMakeFiles\cmTC_08a14.dir\feature_tests.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.c
-Linking C executable cmTC_08a14
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_08a14.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_08a14.dir/feature_tests.c.obj  -o cmTC_08a14 
+Building C object CMakeFiles/cmTC_b3a98.dir/feature_tests.c.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address    -std=c90 -o CMakeFiles\cmTC_b3a98.dir\feature_tests.c.obj   -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.c
+Linking C executable cmTC_b3a98
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b3a98.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_b3a98.dir/feature_tests.c.obj  -o cmTC_b3a98 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -186,14 +186,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a5394/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a5394.dir\build.make CMakeFiles/cmTC_a5394.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8cb64/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8cb64.dir\build.make CMakeFiles/cmTC_8cb64.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a5394.dir/testCXXCompiler.cxx.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_a5394.dir\testCXXCompiler.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_a5394
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a5394.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_a5394.dir/testCXXCompiler.cxx.obj  -o cmTC_a5394 
+Building CXX object CMakeFiles/cmTC_8cb64.dir/testCXXCompiler.cxx.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_8cb64.dir\testCXXCompiler.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_8cb64
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8cb64.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_8cb64.dir/testCXXCompiler.cxx.obj  -o cmTC_8cb64 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -201,14 +201,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7834a/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7834a.dir\build.make CMakeFiles/cmTC_7834a.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_85266/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_85266.dir\build.make CMakeFiles/cmTC_85266.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7834a.dir/CMakeCXXCompilerABI.cpp.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_7834a.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_7834a
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_7834a.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_7834a.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_7834a 
+Building CXX object CMakeFiles/cmTC_85266.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_85266.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_85266
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_85266.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_85266.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_85266 
 Using built-in specs.
 COLLECT_GCC=C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe
 COLLECT_LTO_WRAPPER=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe
@@ -218,10 +218,10 @@ Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
 COMPILER_PATH=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_7834a'
- c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccQnidka.res -o cmTC_7834a -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_7834a.dir/CMakeCXXCompilerABI.cpp.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_85266'
+ c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccNvUXk8.res -o cmTC_85266 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_85266.dir/CMakeCXXCompilerABI.cpp.obj
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_7834a'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_85266'
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
 
@@ -229,14 +229,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7834a/fast"]
-  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7834a.dir\build.make CMakeFiles/cmTC_7834a.dir/build]
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_85266/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_85266.dir\build.make CMakeFiles/cmTC_85266.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7834a.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_7834a.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_7834a]
-  ignore line: [C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_7834a.dir\link.txt --verbose=1]
-  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_7834a.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_7834a ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_85266.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -o CMakeFiles\cmTC_85266.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\pawel\.espressif\tools\cmake\3.13.4\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_85266]
+  ignore line: [C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_85266.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_85266.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_85266 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe]
@@ -250,19 +250,19 @@ Parsed CXX implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/]
   ignore line: [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/]
   ignore line: [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_7834a']
-  link line: [ c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccQnidka.res -o cmTC_7834a -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_7834a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_85266']
+  link line: [ c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe -plugin c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll -plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccNvUXk8.res -o cmTC_85266 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_85266.dir/CMakeCXXCompilerABI.cpp.obj]
     arg [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccQnidka.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\pawel\AppData\Local\Temp\ccNvUXk8.res] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7834a] ==> ignore
+    arg [cmTC_85266] ==> ignore
     arg [-Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0]
     arg [-Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-Lc:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_7834a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_85266.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
   collapse library dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> [C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0]
   collapse library dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -276,14 +276,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_91419/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_91419.dir\build.make CMakeFiles/cmTC_91419.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a8094/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a8094.dir\build.make CMakeFiles/cmTC_a8094.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_91419.dir/feature_tests.cxx.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++2a -o CMakeFiles\cmTC_91419.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_91419
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_91419.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_91419.dir/feature_tests.cxx.obj  -o cmTC_91419 
+Building CXX object CMakeFiles/cmTC_a8094.dir/feature_tests.cxx.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++2a -o CMakeFiles\cmTC_a8094.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_a8094
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a8094.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_a8094.dir/feature_tests.cxx.obj  -o cmTC_a8094 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -350,14 +350,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_fc90a/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fc90a.dir\build.make CMakeFiles/cmTC_fc90a.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_5b1f3/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_5b1f3.dir\build.make CMakeFiles/cmTC_5b1f3.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fc90a.dir/feature_tests.cxx.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++17 -o CMakeFiles\cmTC_fc90a.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_fc90a
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_fc90a.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_fc90a.dir/feature_tests.cxx.obj  -o cmTC_fc90a 
+Building CXX object CMakeFiles/cmTC_5b1f3.dir/feature_tests.cxx.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++17 -o CMakeFiles\cmTC_5b1f3.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_5b1f3
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5b1f3.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_5b1f3.dir/feature_tests.cxx.obj  -o cmTC_5b1f3 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -424,14 +424,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f0944/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f0944.dir\build.make CMakeFiles/cmTC_f0944.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d0e8c/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d0e8c.dir\build.make CMakeFiles/cmTC_d0e8c.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f0944.dir/feature_tests.cxx.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++14 -o CMakeFiles\cmTC_f0944.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_f0944
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f0944.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_f0944.dir/feature_tests.cxx.obj  -o cmTC_f0944 
+Building CXX object CMakeFiles/cmTC_d0e8c.dir/feature_tests.cxx.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++14 -o CMakeFiles\cmTC_d0e8c.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_d0e8c
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d0e8c.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_d0e8c.dir/feature_tests.cxx.obj  -o cmTC_d0e8c 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -498,14 +498,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f33d7/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f33d7.dir\build.make CMakeFiles/cmTC_f33d7.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c219d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c219d.dir\build.make CMakeFiles/cmTC_c219d.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f33d7.dir/feature_tests.cxx.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++11 -o CMakeFiles\cmTC_f33d7.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_f33d7
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f33d7.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_f33d7.dir/feature_tests.cxx.obj  -o cmTC_f33d7 
+Building CXX object CMakeFiles/cmTC_c219d.dir/feature_tests.cxx.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++11 -o CMakeFiles\cmTC_c219d.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_c219d
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_c219d.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_c219d.dir/feature_tests.cxx.obj  -o cmTC_c219d 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 
@@ -572,14 +572,14 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdk
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_62be2/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_62be2.dir\build.make CMakeFiles/cmTC_62be2.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_82de5/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_82de5.dir\build.make CMakeFiles/cmTC_82de5.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_62be2.dir/feature_tests.cxx.obj
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++98 -o CMakeFiles\cmTC_62be2.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_62be2
-C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_62be2.dir\link.txt --verbose=1
-C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_62be2.dir/feature_tests.cxx.obj  -o cmTC_62be2 
+Building CXX object CMakeFiles/cmTC_82de5.dir/feature_tests.cxx.obj
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe    -mlongcalls -Wno-frame-address    -std=c++98 -o CMakeFiles\cmTC_82de5.dir\feature_tests.cxx.obj -c C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_82de5
+C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_82de5.dir\link.txt --verbose=1
+C:\Users\pawel\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_82de5.dir/feature_tests.cxx.obj  -o cmTC_82de5 
 c:/users/pawel/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 mingw32-make.exe[1]: Leaving directory `C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/CMakeTmp'
 

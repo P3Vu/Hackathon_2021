@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /d C:\Users\pawel\Desktop\esp-idf\components\esptool_py && C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -D IDF_PATH="C:/Users/pawel/Desktop/esp-idf" -D IDF_MONITOR="C:/Users/pawel/Desktop/esp-idf/tools/idf_monitor.py" -D ELF_FILE="hello-world.elf" -D WORKING_DIRECTORY="C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB" -P run_idf_monitor.cmake
+	cd /d C:\Users\pawel\Desktop\esp-idf\components\esptool_py && C:\Users\pawel\.espressif\tools\cmake\3.13.4\bin\cmake.exe -D IDF_PATH="C:/Users/pawel/Desktop/esp-idf" -D IDF_MONITOR="C:/Users/pawel/Desktop/esp-idf/tools/idf_monitor.py" -D ELF_FILE="gniazdko.elf" -D WORKING_DIRECTORY="C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB" -P run_idf_monitor.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make

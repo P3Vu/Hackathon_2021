@@ -5,12 +5,12 @@ C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/menuconfig.d
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/bootloader.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/gen_project_binary.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/flash.dir
+C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/gniazdko.elf.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/monitor.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/app-flash.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/encrypted-flash.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/encrypted-app-flash.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/_project_elf_src.dir
-C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/hello-world.elf.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/size.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/size-files.dir
 C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/CMakeFiles/size-components.dir

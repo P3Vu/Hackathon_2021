@@ -52,8 +52,8 @@ CMAKE_BINARY_DIR = C:\Users\pawel\Desktop\Hackathon\gniazdko\firmware\CodeB
 # Include the progress variables for this target.
 include CMakeFiles/size.dir/progress.make
 
-CMakeFiles/size: hello-world.elf
-	python C:/Users/pawel/Desktop/esp-idf/tools/idf_size.py C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/hello-world.map
+CMakeFiles/size: gniazdko.elf
+	python C:/Users/pawel/Desktop/esp-idf/tools/idf_size.py C:/Users/pawel/Desktop/Hackathon/gniazdko/firmware/CodeB/gniazdko.map
 
 size: CMakeFiles/size
 size: CMakeFiles/size.dir/build.make
